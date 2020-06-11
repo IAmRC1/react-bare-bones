@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+$myColor: steelblue;
+
+.section{
+  background-color: $myColor;
+  &>div{
+    width: 500px;
+    text-align: center;
+    h3{
+      font-family: 'Rock Salt', cursive;
+      font-size: 2rem;
+    }
+  }
+}
